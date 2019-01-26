@@ -11,6 +11,7 @@ install:
 - gem install link-checker
 - gem install jekyll-postfiles
 - gem install jekyll-sitemap
+- gem install jekyll-redirect-from
 # - gem install html-proofer
 script:
 - jekyll build
