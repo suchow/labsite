@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://web.stevens.edu/cognition/sitemap.xml

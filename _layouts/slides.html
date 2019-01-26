@@ -1,0 +1,63 @@
+
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Cormorant:600,600italic);
+      @import url(https://fonts.googleapis.com/css?family=Nunito+Sans:300,300italic);
+      @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,400italic);
+      a {
+        color: #569BBB;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #71c4ea;
+      }
+      body {
+          font-family: 'Nunito Sans';
+      }
+      h1, h2, h3 {
+        font-family: 'Cormorant';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code {
+        font-family: 'Source Code Pro';
+        font-style: normal;
+        font-size: 0.85em;
+        color: #666666;
+      }
+      .remark-slide-content {
+        background-color: #f9f9f9;
+        font-size: 20pt;
+      }
+      .statement {
+        font-size: 28pt;
+      }
+      .remark-slide-content h1 {
+        color: #3b3b3b;
+        font-style: italic;
+        padding-top: 75px;
+      }
+      .remark-slide-content li {
+        line-height: 40px;
+      }
+      .remark-slide-number {
+        font-size: 18pt;
+        padding-right: 15px;
+        padding-bottom: 5px;
+      }
+      .dark {
+        background-color: #222222;
+        color: #eeeeee;
+      }
+      .dark h1 {
+        color: #cccccc;
+      }
+    </style>
+    <textarea id="source">
+{{ content }}
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '16:9',
+      });
+    </script>
