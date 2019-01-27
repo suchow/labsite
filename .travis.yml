@@ -20,6 +20,7 @@ script:
 after_success:
 # - s3_website push
 - check-links 'http://web.stevens.edu/cognition'
+- mount -t cifs -o username=test //storage01.stevens.edu/w3cognition$ /
 env:
   on:
     branch: master
