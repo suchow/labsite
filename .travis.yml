@@ -21,7 +21,7 @@ script:
 after_success:
 # - s3_website push
 - check-links 'http://web.stevens.edu/cognition'
-- find "_site" -type f -exec curl -T {} -u "domain\username:passwd" "smb://storage01.stevens.edu/w3cognition$" \;
+- find '_site' -type f -exec curl -T {} -u 'domain\username:passwd' 'smb://storage01.stevens.edu/w3cognition$' \;
 env:
   on:
     branch: master
